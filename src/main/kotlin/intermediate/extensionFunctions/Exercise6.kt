@@ -1,4 +1,4 @@
-package org.delcom.intermediate.classesInterfaces
+package org.delcom.intermediate.extensionFunctions
 
 fun String.toLowercaseString(): String = this.lowercase()
 
