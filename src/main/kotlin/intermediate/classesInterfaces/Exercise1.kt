@@ -6,6 +6,7 @@ abstract class SmartDevice(val name: String) {
 }
 
 
+
 class SmartLight(name: String) : SmartDevice(name) {
     override fun turnOn() {
         println("$name is now ON.")
